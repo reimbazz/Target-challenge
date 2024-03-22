@@ -1,4 +1,12 @@
-//Utilizando a seguinte aplicação em C chego ao resultado de que SOMA terá o valor de 91
+//1) Observe o trecho de código abaixo:
+//int INDICE = 13, SOMA = 0, K = 0;
+//enquanto K < INDICE faça
+//{
+//K = K + 1;
+//SOMA = SOMA + K;
+//}
+//imprimir(SOMA);
+//Ao final do processamento, qual será o valor da variável SOMA?
 
 #include <stdio.h>
 
@@ -15,3 +23,4 @@ int main() {
     
     return 0;
 }
+//A variável SOMA terá o valor 91
